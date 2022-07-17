@@ -1,49 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Interactive rating component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  <!-- Rating state start -->
-
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>componente de avaliação</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fase2.css" />
+    <script src="script.js" type="module" defer></script>
+  </head>
+  <body>
+    <main>
+      <div id="fase2">
+        <object data="./images/illustration-thank-you.svg"></object>
+        <p id="resultado">You selected 4 out of 5</p>
+        <h1>Thank you!</h1>
+        <p id="paragrafo-fim">
+          We appreciate you taking the time to givearating. If you ever need
+          more support,don't hesitate to get in touch!
+        </p>
+      </div>
+      <div id="fase1">
+        <div id="cont-icone">
+          <object data="./images/icon-star.svg"></object>
+        </div>
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request.All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div id="cont-button">
+          <button class="avaliação">1</button>
+          <button class="avaliação">2</button>
+          <button class="avaliação">3</button>
+          <button class="avaliação">4</button>
+          <button class="avaliação">5</button>
+        </div>
+        <button id="submit">submit</button>
+      </div>
+    </main>
+  </body>
 </html>

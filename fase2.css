@@ -1,0 +1,16 @@
+#fase2 {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 16px;
+}
+#resultado {
+  color: hsl(25, 97%, 53%);
+  background: hsl(213, 19%, 18%);
+  padding: 8px 20px;
+  border-radius: 30px;
+}
+#paragrafo-fim {
+  text-align: center;
+}
